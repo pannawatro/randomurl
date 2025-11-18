@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Random Form Redirect</title>
+<script>
+  window.onload = function() {
+    const links = [
+      "https://docs.google.com/forms/d/FORM1",
+      "https://docs.google.com/forms/d/FORM2",
+      "https://docs.google.com/forms/d/FORM3"
+    ];
+    const randomLink = links[Math.floor(Math.random() * links.length)];
+    window.location.href = randomLink;
+  };
+</script>
+</head>
+<body>
+<p>กำลังพาไปยังแบบสอบถาม...</p>
+</body>
+</html>
